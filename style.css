@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#res {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px;
+}
+
+.card {
+    padding: 10px;
+    width: 250px;
+    box-shadow: 0 0 5px 5px lightblue;
+    border-radius: 10px;
+}
+
+.card img {
+    width: 100%;
+}
